@@ -1,0 +1,278 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.hd-0 {
+    display: none;
+}
+
+.hd-1 {
+    background-color: #0170b9;
+    width: 100%;
+}
+
+.logo-mobile img {
+    width: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+#itens {
+    text-align: center;
+    color: white;
+    display: none;
+
+}
+
+
+#itens.active {
+    display: block;
+}
+
+#itens li {
+    margin-top: 3px;
+    font-family: montserrat;
+    background-color: #1a4d6e;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#itens li:hover {
+    background-color: black;
+}
+
+#icon {
+    cursor: pointer;
+    background-color: #1a4d6e;
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+#icon:hover {
+    color: black;
+}
+
+
+.banner-principal-desktop img {
+    display: none;
+}
+
+
+.logo-desktop {
+    display: none;
+}
+
+.search-box {
+    display: none;
+}
+
+.sub {
+    display: none;
+}
+
+
+
+.s1 {
+    text-align: center;
+    font-family: montserrat;
+    margin-top: px;
+    color: #171717;
+    padding: 40px;
+}
+
+.s1 h1 {
+    font-weight: 300;
+}
+
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 110px;
+    padding-right: 110px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+
+
+}
+
+.categoria1 {
+    border: solid 2px white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.17);
+    padding: 20px 10px 10px 10px;
+    width: 250px;
+    flex-direction: row;
+    margin-top: 30px;
+    position: relative;
+
+
+
+
+
+}
+
+.categoria1 p {
+    font-size: 15px;
+    font-family: montserrat;
+    color: black;
+    text-align: center;
+}
+
+.categoria1:hover {
+    border-bottom: 3px solid #0170b9;
+    transition: 0.3;
+}
+
+.categoria1 img {
+    margin-left: 90px;
+    border-radius: 96px;
+
+}
+
+.destaques {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.destaques-1 {
+    text-align: center;
+    border: solid white 3px;
+    margin-top: 50px;
+    padding: 6px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.17);
+    border-radius: 10px;
+}
+
+.destaques-1 h1 {
+    font-family: montserrat;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.destaques-1 button {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: montserrat;
+    color: white;
+    background-color: #0170b9;
+    border: none;
+    margin: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.destaques-1 h3 {
+    font-size: 17px;
+    font-family: montserrat;
+    font-weight: 500;
+    color: #4b4f58;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.destaques-1 img {
+    margin-top: 30px;
+}
+
+.fil {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+
+}
+
+.fil1 {
+    margin-left: 10px;
+}
+
+.fil1 p {
+    font-size: 17px;
+    font-family: montserrat;
+    color: black;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.fil1 h2 {
+    font-size: 15px;
+    font-family: montserrat;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rodape {
+    width: 100%;
+    height: auto;
+    background-color: #e7e7e7;
+    margin-top: 40px;
+}
+
+.rodape1 {
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.rodape1 h1 {
+    font-family: montserrat;
+    font-size: 20px;
+    color: #171717;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.rodape1 p {
+    font-family: "Raleway", Sans-serif;
+    font-size: 16px;
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+    color: #171717;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.bandeiras {
+    margin-top: 20px;
+}
+
+.cer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fim {
+    background-color: #0170b9;
+    height: 242px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.fim p {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-family: montserrat;
+    margin: 0px 0px 26px;
+    box-sizing: border-box;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: 35px;
+}

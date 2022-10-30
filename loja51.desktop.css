@@ -1,0 +1,335 @@
+@media screen and (min-width: 992px) and (max-width:2000px) {
+    .hd-0 {
+        width: 100%;
+        display: block;
+        height: 51px;
+        display: flex;
+        background-color: #0170b9;
+        align-items: center;
+    }
+
+    .hd-0 a {
+        margin-left: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+        font-family: montserrat;
+    }
+
+    .logo-mobile {
+        display: none;
+    }
+
+    .logo-desktop {
+        display: block;
+        position: relative;
+        left: 90px;
+        cursor: pointer;
+
+    }
+
+
+    .hd-0 a:hover {
+        border-bottom: black 3px solid;
+    }
+
+    .hd-1 {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 0px;
+
+    }
+
+    #icon {
+        display: none;
+    }
+
+    #itens {
+        display: block;
+    }
+
+    #itens li {
+        background-color: transparent;
+        display: inline-block;
+        margin-left: 38px;
+        font-size: 17px;
+        color: black;
+
+
+    }
+
+    #itens ul li:hover {
+        color: #0170b9;
+
+    }
+
+    #itens ul {
+        text-align: center;
+        margin-top: 150px;
+        margin-right: 290px;
+    }
+
+    #itens li:hover {
+        background-color: transparent;
+        color: black;
+        transition: all 0.3s;
+    }
+
+    .banner-principal-desktop img {
+        display: block;
+        width: 100%;
+        margin-top: 100px;
+        height: 100%;
+
+
+    }
+
+    .banner-principal-mob {
+        display: none;
+    }
+
+    .search-box {
+        display: block;
+        position: relative;
+        top: 60px;
+    }
+
+    input.search-box {
+        width: 550px;
+        height: 40px;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+        font-size: 14px;
+        border-radius: 30px;
+        outline: none;
+        border: 1px #0170b9 solid;
+        position: relative;
+        right: 80px;
+    }
+
+    input.search-box::placeholder {
+        position: relative;
+        left: 7px;
+    }
+
+
+    .sub {
+        display: block;
+        position: relative;
+        top: 100px;
+    }
+
+    input.sub {
+        background-image: url(./imagem/search_FILL0_wght400_GRAD0_opsz48.svg);
+        background-size: 40px 40px;
+        background-repeat: no-repeat;
+        background-color: #0170b9;
+        background-position: center;
+        position: relative;
+        left: 205px;
+        top: 18px;
+        cursor: pointer;
+        width: 50px;
+        height: 42px;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+        outline: none;
+        border: 1px #0170b9 solid
+    }
+
+    .categorias {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 110px;
+        padding-right: 110px;
+        flex-wrap: wrap;
+
+
+
+    }
+
+    .categoria1 {
+        border: solid 2px white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.17);
+        padding: 20px 10px 10px 10px;
+        width: 250px;
+        flex-direction: row;
+        margin-top: 30px;
+        position: relative;
+
+
+
+
+
+    }
+
+    .fil {
+        margin-left: 100px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 15px;
+
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #1a4d6e;
+        border-radius: 3px;
+
+    }
+
+    .categoria1 p {
+        font-size: 15px;
+        font-family: montserrat;
+        color: black;
+        text-align: center;
+    }
+
+    .categoria1:hover {
+        border-bottom: 3px solid #0170b9;
+        transition: 0.3;
+    }
+
+    .categoria1 img {
+        margin-left: 90px;
+        border-radius: 96px;
+    }
+
+    .destaques {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .rodape {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .rodape1 {
+        margin-left: 30px;
+    }
+
+    .bandeiras {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (min-width: 1077px) and (max-width: 1264px) {
+    #itens li {
+        margin-left: 10px;
+        font-size: 15px
+    }
+
+    #itens ul {
+        position: relative;
+        left: 30px;
+    }
+
+    .con-pes {
+        position: relative;
+        left: 70px;
+    }
+
+    .logo-desktop {
+        position: relative;
+        left: 40px;
+
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1076px) {
+    .con-pes {
+        position: relative;
+        left: 80px;
+    }
+
+    #itens li {
+        font-size: 15px;
+        margin-left: 7px;
+    }
+
+    #itens ul {
+        position: relative;
+        left: 50px
+    }
+
+    .logo-desktop {
+        position: relative;
+        left: 30px;
+    }
+
+}
+
+@media screen and (max-width: 452px) {
+    .categoria1 img {
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .categoria1 img {
+        position: relative;
+        right: 40px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .categoria1 img {
+        position: relative;
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    .categoria1 img {
+        position: relative;
+        right: 40px;
+    }
+}
+
+@media screen and (max-width: 453px) {
+    .categoria1 img {
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .categoria1 img {
+        position: relative;
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .categoria1 img {
+        position: relative;
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .categoria1 img {
+        position: relative;
+        right: 40px;
+    }
+}
+
+@media screen and (min-width: 494px) and (max-width:730px) {
+    .fil1 {
+        margin-left: 30px;
+    }
+}
