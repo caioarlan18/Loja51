@@ -11,6 +11,7 @@
 .hd-1 {
     background-color: #0170b9;
     width: 100%;
+
 }
 
 .logo-mobile img {
@@ -30,6 +31,7 @@
     color: white;
     height: 0px;
     transition: 0.4s;
+    background-color: #0170b9;
 }
 
 
@@ -38,21 +40,25 @@
 
 }
 
+
+
 #itens li {
-    margin-top: 2px;
+    margin-top: 3px;
     font-family: montserrat;
-    background-color: #1a4d6e;
+    background-color: #3794d1;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     font-weight: 500;
+    font-weight: 500;
 
 }
 
 #itens li:hover {
-    background-color: rgb(63, 62, 62);
+    background-color: rgb(233, 229, 229);
+    color: black;
 }
 
 .menu-ham {
@@ -72,6 +78,7 @@
 #icon:hover {
     color: black;
 }
+
 
 
 .banner-principal-desktop img {
