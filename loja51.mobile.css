@@ -21,20 +21,25 @@
     cursor: pointer;
 }
 
+.logo-mobile {
+    display: flex;
+}
+
 #itens {
     text-align: center;
     color: white;
-    display: none;
-
+    height: 0px;
+    transition: 0.4s;
 }
 
 
 #itens.active {
-    display: block;
+    height: 170px;
+
 }
 
 #itens li {
-    margin-top: 3px;
+    margin-top: 2px;
     font-family: montserrat;
     background-color: #1a4d6e;
     height: 40px;
@@ -42,18 +47,26 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-weight: 500;
+
 }
 
 #itens li:hover {
-    background-color: black;
+    background-color: rgb(63, 62, 62);
+}
+
+.menu-ham {
+    display: flex;
+    align-items: center;
 }
 
 #icon {
     cursor: pointer;
-    background-color: #1a4d6e;
-    display: block;
+    display: flex;
     text-align: center;
     color: white;
+    align-items: center;
+    width: 30px;
 }
 
 #icon:hover {
@@ -89,7 +102,7 @@
 }
 
 .s1 h1 {
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .categorias {
@@ -125,6 +138,7 @@
     font-family: montserrat;
     color: black;
     text-align: center;
+    font-weight: 500;
 }
 
 .categoria1:hover {
@@ -170,6 +184,7 @@
     margin: 30px;
     border-radius: 30px;
     cursor: pointer;
+    font-weight: 500;
 }
 
 .destaques-1 h3 {
@@ -212,7 +227,7 @@
 .fil1 h2 {
     font-size: 15px;
     font-family: montserrat;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     margin-top: 20px;
 }
